@@ -31,7 +31,7 @@ section, article {
     .image.avatar48 {
         width: 48px;
         height: 48px;
-        background: #f00;
+        background: #222629;
     }
 
         .image.avatar48 img {
@@ -354,7 +354,22 @@ button,
             #header .icons a:hover {
                 color: rgba(162, 1, 255);
             }
-
+            #header .icon-li a:hover {
+                color: rgb(0, 119, 181);
+            }
+            #header .icon-gh a:hover {
+                color: rgb(#6e5494);
+            }
+            #header .icon-steam a:hover {
+                color: rgb(171, 194, 212);
+            }
+            #header .icon-yt a:hover {
+                color: rgb(255, 0, 0);
+            }
+            #header .icon-mail a:hover {
+                color: rgb(255, 255, 255);
+            }
+            
 #logo {
     position: relative;
     margin: 1.75em 1.5em 1.5em 1.5em;
