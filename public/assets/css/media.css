@@ -1562,9 +1562,9 @@
 
 }
 
-/* Narrow */
+/* Narrow formerly 961px */
 
-@media screen and (min-width: 961px) and (max-width: 1320px) {
+@media screen and (min-width: 737px) and (max-width: 1320px) {
 
     /* Basic */
 
@@ -1629,13 +1629,13 @@
 
 }
 
-/* Narrower */
+/* Narrower formerly 960px */
 
 #headerToggle {
     display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 736px) {
 
     /* Basic */
 
@@ -1671,7 +1671,7 @@
     /* Header */
 
         #header {
-            -moz-backface-visibility: hidden;
+            -moz-backface-visibility: hidden;/* these 4 visibles were hidden by default */
             -webkit-backface-visibility: hidden;
             -ms-backface-visibility: hidden;
             backface-visibility: hidden;
@@ -1718,7 +1718,7 @@
         }
 
         #headerToggle {
-            -moz-backface-visibility: hidden;
+            -moz-backface-visibility: hidden; /* these 4 visibles were hidden by default */
             -webkit-backface-visibility: hidden;
             -ms-backface-visibility: hidden;
             backface-visibility: hidden;
@@ -1798,7 +1798,7 @@
     /* Main */
 
         #main {
-            -moz-backface-visibility: hidden;
+            -moz-backface-visibility: hidden; /* these 4 visibles were hidden by default */
             -webkit-backface-visibility: hidden;
             -ms-backface-visibility: hidden;
             backface-visibility: hidden;
